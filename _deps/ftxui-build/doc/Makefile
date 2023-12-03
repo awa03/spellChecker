@@ -57,10 +57,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck
+CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck
+CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/sp
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && /opt/local/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && /opt/local/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && /opt/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CPackSourceConfig.cmake
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && /opt/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build/doc//CMakeFiles/progress.marks
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/doc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 0
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build/doc//CMakeFiles/progress.marks
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/doc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/doc/clean
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/doc/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,17 +168,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/doc/preinstall
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/doc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/doc/preinstall
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/doc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -206,6 +206,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

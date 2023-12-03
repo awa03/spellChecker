@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/opt/local/bin/cmake;-P;/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp/ftxui-populate-gitclone.cmake
-source_dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src
-work_dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps
+command=/opt/local/bin/cmake;-P;/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp/ftxui-populate-gitclone.cmake
+source_dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src
+work_dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps
 repository=https://github.com/ArthurSonzogni/FTXUI
 remote=origin
 init_submodules=TRUE

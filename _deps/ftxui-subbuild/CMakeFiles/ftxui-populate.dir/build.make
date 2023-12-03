@@ -53,10 +53,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild
+CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild
+CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild
 
 # Utility rule file for ftxui-populate.
 
@@ -76,47 +76,47 @@ CMakeFiles/ftxui-populate-complete: ftxui-populate-prefix/src/ftxui-populate-sta
 CMakeFiles/ftxui-populate-complete: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build
 CMakeFiles/ftxui-populate-complete: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install
 CMakeFiles/ftxui-populate-complete: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ftxui-populate'"
-	/opt/local/bin/cmake -E make_directory /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles
-	/opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate-complete
-	/opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ftxui-populate'"
+	/opt/local/bin/cmake -E make_directory /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles
+	/opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate-complete
+	/opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-done
 
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'ftxui-populate'"
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build && /opt/local/bin/cmake -E echo_append
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'ftxui-populate'"
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build && /opt/local/bin/cmake -E echo_append
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build
 
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure: ftxui-populate-prefix/tmp/ftxui-populate-cfgcmd.txt
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'ftxui-populate'"
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build && /opt/local/bin/cmake -E echo_append
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'ftxui-populate'"
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build && /opt/local/bin/cmake -E echo_append
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure
 
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitinfo.txt
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'ftxui-populate'"
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps && /opt/local/bin/cmake -P /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp/ftxui-populate-gitclone.cmake
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'ftxui-populate'"
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps && /opt/local/bin/cmake -P /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp/ftxui-populate-gitclone.cmake
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download
 
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ftxui-populate'"
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build && /opt/local/bin/cmake -E echo_append
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ftxui-populate'"
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build && /opt/local/bin/cmake -E echo_append
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install
 
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ftxui-populate'"
-	/opt/local/bin/cmake -Dcfgdir= -P /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp/ftxui-populate-mkdirs.cmake
-	/opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ftxui-populate'"
+	/opt/local/bin/cmake -Dcfgdir= -P /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp/ftxui-populate-mkdirs.cmake
+	/opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-mkdir
 
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-patch: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ftxui-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ftxui-populate'"
 	/opt/local/bin/cmake -E echo_append
-	/opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-patch
+	/opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-patch
 
 ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-test: ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'ftxui-populate'"
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build && /opt/local/bin/cmake -E echo_append
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-build && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'ftxui-populate'"
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build && /opt/local/bin/cmake -E echo_append
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-build && /opt/local/bin/cmake -E touch /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-test
 
 ftxui-populate: CMakeFiles/ftxui-populate
 ftxui-populate: CMakeFiles/ftxui-populate-complete
@@ -139,6 +139,6 @@ CMakeFiles/ftxui-populate.dir/clean:
 .PHONY : CMakeFiles/ftxui-populate.dir/clean
 
 CMakeFiles/ftxui-populate.dir/depend:
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ftxui-populate.dir/depend
 

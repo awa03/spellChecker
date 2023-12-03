@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/examples
+# Install script for directory: /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
