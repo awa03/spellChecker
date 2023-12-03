@@ -28,6 +28,10 @@ rm -rf extracredit_pt2/_deps/ftxui-subbuild
 cmake -B .
 cmake --build .
 ```
+If that doesnt resolve your issues, delete every CMake File, other than the CMakeLists...
+And build again...
+
+
 If needed replace `.` with the build directory (spellcheck by default)
 
 
