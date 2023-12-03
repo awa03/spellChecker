@@ -54,10 +54,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck
+CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck
+CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -138,14 +138,14 @@ _deps/ftxui-build/examples/clean:
 CMakeFiles/hashtable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashtable.dir/build.make CMakeFiles/hashtable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashtable.dir/build.make CMakeFiles/hashtable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles --progress-num= "Built target hashtable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles --progress-num= "Built target hashtable"
 .PHONY : CMakeFiles/hashtable.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hashtable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hashtable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 0
 .PHONY : CMakeFiles/hashtable.dir/rule
 
 # Convenience name for target.
@@ -166,14 +166,14 @@ CMakeFiles/proj5.x.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 CMakeFiles/proj5.x.dir/all: _deps/ftxui-build/CMakeFiles/component.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj5.x.dir/build.make CMakeFiles/proj5.x.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj5.x.dir/build.make CMakeFiles/proj5.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles --progress-num=67,68 "Built target proj5.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles --progress-num=67,68 "Built target proj5.x"
 .PHONY : CMakeFiles/proj5.x.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/proj5.x.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 75
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 75
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proj5.x.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 0
 .PHONY : CMakeFiles/proj5.x.dir/rule
 
 # Convenience name for target.
@@ -192,14 +192,14 @@ CMakeFiles/proj5.x.dir/clean:
 _deps/ftxui-build/CMakeFiles/screen.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/ftxui-build/CMakeFiles/screen.dir/build.make _deps/ftxui-build/CMakeFiles/screen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ftxui-build/CMakeFiles/screen.dir/build.make _deps/ftxui-build/CMakeFiles/screen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles --progress-num=69,70,71,72,73,74,75 "Built target screen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles --progress-num=69,70,71,72,73,74,75 "Built target screen"
 .PHONY : _deps/ftxui-build/CMakeFiles/screen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ftxui-build/CMakeFiles/screen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/CMakeFiles/screen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 0
 .PHONY : _deps/ftxui-build/CMakeFiles/screen.dir/rule
 
 # Convenience name for target.
@@ -218,14 +218,14 @@ _deps/ftxui-build/CMakeFiles/screen.dir/clean:
 _deps/ftxui-build/CMakeFiles/dom.dir/all: _deps/ftxui-build/CMakeFiles/screen.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ftxui-build/CMakeFiles/dom.dir/build.make _deps/ftxui-build/CMakeFiles/dom.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ftxui-build/CMakeFiles/dom.dir/build.make _deps/ftxui-build/CMakeFiles/dom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target dom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target dom"
 .PHONY : _deps/ftxui-build/CMakeFiles/dom.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ftxui-build/CMakeFiles/dom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/CMakeFiles/dom.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 0
 .PHONY : _deps/ftxui-build/CMakeFiles/dom.dir/rule
 
 # Convenience name for target.
@@ -245,14 +245,14 @@ _deps/ftxui-build/CMakeFiles/component.dir/all: _deps/ftxui-build/CMakeFiles/scr
 _deps/ftxui-build/CMakeFiles/component.dir/all: _deps/ftxui-build/CMakeFiles/dom.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/ftxui-build/CMakeFiles/component.dir/build.make _deps/ftxui-build/CMakeFiles/component.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/ftxui-build/CMakeFiles/component.dir/build.make _deps/ftxui-build/CMakeFiles/component.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target component"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target component"
 .PHONY : _deps/ftxui-build/CMakeFiles/component.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ftxui-build/CMakeFiles/component.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 73
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/ftxui-build/CMakeFiles/component.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 0
 .PHONY : _deps/ftxui-build/CMakeFiles/component.dir/rule
 
 # Convenience name for target.

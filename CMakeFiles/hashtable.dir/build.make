@@ -53,10 +53,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck
+CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck
+CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hashtable.dir/depend.make
@@ -81,6 +81,6 @@ CMakeFiles/hashtable.dir/clean:
 .PHONY : CMakeFiles/hashtable.dir/clean
 
 CMakeFiles/hashtable.dir/depend:
-	cd /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles/hashtable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles/hashtable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hashtable.dir/depend
 

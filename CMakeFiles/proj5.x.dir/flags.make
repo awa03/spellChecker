@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/src -isystem /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include
+CXX_INCLUDES = -I/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/src -isystem /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -std=gnu++17
 
