@@ -1,5 +1,5 @@
 _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/src/ftxui/screen/terminal.cpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/src/ftxui/screen/terminal.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdlib \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -735,7 +735,7 @@ _deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/terminal.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/terminal.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/ioctl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/ttycom.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/ioccom.h \

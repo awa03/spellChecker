@@ -1,6 +1,6 @@
 _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/src/ftxui/dom/node.cpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/box.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/src/ftxui/dom/node.cpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/box.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -301,7 +301,7 @@ _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/runetype.h \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/node.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/node.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/addressof.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/align.h \
@@ -734,10 +734,10 @@ _deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/literals.h \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/requirement.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/screen.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/requirement.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/screen.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/color.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/terminal.hpp
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/color.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/terminal.hpp

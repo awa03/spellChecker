@@ -1,5 +1,5 @@
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -734,16 +734,16 @@ _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactiv
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/csignal \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/signal.h \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/task.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/event.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/mouse.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/task.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/event.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/mouse.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/screen.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/box.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/color.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/terminal.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/screen.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/box.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/color.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/terminal.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__locale \
@@ -802,27 +802,27 @@ _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactiv
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/animation.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/captured_mouse.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/component_base.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/elements.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/canvas.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/direction.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/flexbox_config.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/linear_gradient.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/node.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/requirement.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/util/ref.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/string.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/screen/deprecated.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/take_any_args.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/dom/deprecated.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/loop.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/receiver.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/animation.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/captured_mouse.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/component_base.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/elements.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/canvas.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/direction.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/flexbox_config.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/linear_gradient.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/node.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/requirement.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/util/ref.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/string.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/screen/deprecated.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/take_any_args.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/dom/deprecated.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/loop.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/receiver.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/queue \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/include/ftxui/component/screen_interactive.hpp \
-  /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/include/ftxui/component/screen_interactive.hpp \
+  /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/termios.h \

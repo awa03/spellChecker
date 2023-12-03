@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild
+# Install script for directory: /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

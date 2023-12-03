@@ -3,21 +3,21 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-if(EXISTS "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt" AND EXISTS "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitinfo.txt" AND
-  "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitinfo.txt")
+if(EXISTS "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt" AND EXISTS "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitinfo.txt" AND
+  "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitinfo.txt")
   message(STATUS
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt'"
+    "'/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt'"
   )
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: '/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src'")
+  message(FATAL_ERROR "Failed to remove directory: '/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -27,7 +27,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "/usr/local/bin/git" 
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/ArthurSonzogni/FTXUI" "ftxui-src"
-    WORKING_DIRECTORY "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps"
+    WORKING_DIRECTORY "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps"
     RESULT_VARIABLE error_code
   )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -42,7 +42,7 @@ endif()
 execute_process(
   COMMAND "/usr/local/bin/git" 
           checkout "origin/main" --
-  WORKING_DIRECTORY "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src"
+  WORKING_DIRECTORY "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
@@ -54,20 +54,20 @@ if(init_submodules)
   execute_process(
     COMMAND "/usr/local/bin/git" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src"
+    WORKING_DIRECTORY "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src"
     RESULT_VARIABLE error_code
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: '/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-src'")
+  message(FATAL_ERROR "Failed to update submodules in: '/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitinfo.txt" "/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitinfo.txt" "/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitclone-lastrun.txt'")
 endif()

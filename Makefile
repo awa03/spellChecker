@@ -57,10 +57,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker
+CMAKE_SOURCE_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker
+CMAKE_BINARY_DIR = /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/opt/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CPackSourceConfig.cmake
+	/opt/local/bin/cpack --config ./CPackSourceConfig.cmake /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,9 +152,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidenallen/Desktop/COP4530/Homework/proj5/proj5_pt2/spellcheck/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
