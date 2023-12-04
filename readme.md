@@ -15,9 +15,13 @@ Following this you need to run the generated make file
 'make'
 
 Then build the program
-`./proj5.x dictionary.txt inFile.txt outFile.txt`
+```bash
+./proj5.x dictionary.txt inFile.txt outFile.txt
+```
 If you would like to build the myspell program instead do not add any arguments
-`./proj5.x`
+```bash
+./proj5.x
+```
 
 Following this you will be prompted with a UI interface...
 
