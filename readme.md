@@ -10,6 +10,8 @@
 >    - cmake (3.11 or Higher required)
 >    - g++
 
+****
+
 ### Building 
 First run the cmake! 3.11 or Higher is required
 This should be ran in the build directory (spellcheck)
@@ -42,9 +44,12 @@ And build again...
 
 If needed replace `.` with the build directory (spellcheck by default)
 
+****
 
-### How This Was Implemented
+### UI Library
 I used the ftxui library from github. https://arthursonzogni.github.io/FTXUI
+
+****
 
 ### How My Algorithm is Superior
 With my implementation I have implemented the default method (character substition), which loops through the word changing each letter individually, as well as my improved methods. The improved 
