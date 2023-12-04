@@ -1,3 +1,0 @@
-/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.dir
-/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles/edit_cache.dir
-/Users/aidenallen/Desktop/COP4530/Untitled/spellChecker/_deps/ftxui-subbuild/CMakeFiles/rebuild_cache.dir
