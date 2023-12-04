@@ -1,5 +1,9 @@
 # How To Run The Spell Checker!
 
+> [!IMPORTANT]
+> This project is not meant to provide benifit to any party, rather to be used as a resource for personal use. Per FSU Guidelines this work should not be bought nor sold. If any proffessor feels that this is a violation of their course policies please contact awa22@fsu.edu.
+
+
 > [!NOTE]
 > Ensure that all dependencies are installed
 >    - make
